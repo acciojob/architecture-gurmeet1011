@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif; /* Set the font */
+            margin: 0; /* Remove default margins */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Flex for centering */
+            justify-content: center; /* Center horizontally */
+            background-color: #f5f5f5; /* Light background */
+        }
+
+        /* Main container to control width */
+        .container {
+            width: 1100px; /* Set the width for the entire content */
+            background-color: lighter; /* White background for the container */
+            padding: 20px; /* Padding inside the container */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+        }
+
+        /* Image container style */
+        .imageContainer {
+            text-align: left; /* Center the image */
+            margin-bottom: 30px; /* Space below the image */
+        }
+
+        /* Table styles */
+        table {
+            width: 100%; /* Make table take full width of container */
+            border-collapse: collapse; /* Collapse borders */
+            margin-top: 20px; /* Space above the table */
+			height:500px;
+        }
+
+        /* Style for each table cell */
+        td {
+            border: 1px solid #ddd; /* Light gray border */
+            padding-right: 15px; /* Padding inside each cell */
+			padding-left: 15px;
+        }
+
+        /* Style for table images */
+        .table-img {
+            width: 100%; /* Make images fill the cell width */
+            height: 60%; /* Maintain aspect ratio */
+        }
+          tr:nth-child(1) {
+            height: 40%; /* Set height of the first row */
+			
+        }
+
+        /* Second row takes 60% of table height */
+        tr:nth-child(2) {
+            height: 60%; /* Set height of the second row */
+			vertical-align:top;
+        }
+        /* Specific widths for table columns */
+        .col1, .col3 {
+            width: 200px; /* Set width for first and last columns */
+        }
+
+        .col2 {
+            width: 600px; /* Set width for middle column */
+            text-align: justify; /* Justify text */
+        }
+
+        p {
+            font-size: 16px; /* Set font size for text */
+            color: #333; /* Dark gray text color */
+        }
